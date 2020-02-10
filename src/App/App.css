@@ -1,0 +1,199 @@
+
+
+body {
+  background-color: rgba(162, 162, 162, 0.1);
+  margin: 0;
+}
+
+.hovereded:hover {
+  background-color: rgba(29, 29, 29, 0.2);
+}
+
+.toolbarRoot {
+  flex-grow: 1;
+}
+
+.toolbarTitle {
+  flex-grow: 1;
+}
+
+.toolbar {
+    color: #fff;
+    background-color: #ee6e73;
+}
+
+.loginContainer {
+  margin: 15% 25% 25% 45.5%;
+}
+
+.that-title {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.that-title.center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.waves-effect.waves-button .waves-ripple {
+      background-color: rgba(255, 255, 255, 0.2);
+}
+
+.floatRight {
+  float: right;
+}
+
+#container {
+  overflow: hidden;
+  width: 100%;
+}
+
+#inner {
+  overflow: hidden;
+  width: 100%;
+}
+
+#child {
+  float: left;
+  margin-left: 5px;
+  width: 300px;
+  height: 500px;
+}
+
+.productRoot {
+  float: left;
+  width: 300px;
+  height: 500px;
+}
+
+.productImg {
+  height: 0;
+  padding-top: 100%;
+}
+
+.cartItemRoot {
+  width: 1200px;
+  height: 125px;
+}
+
+.cartDetails {
+  display: flex;
+  flex-direction: row;
+}
+
+.cartImg {
+  height: 0;
+  padding-top: 100%;
+  padding-right: 50%;
+}
+
+.cartItemContent {
+  flex: '1 0 auto'
+}
+
+.quantity {
+  display: flex;
+  alignItems: center;
+  paddingLeft: 5px;
+  paddingBottom: 5px;
+}
+
+.gridRoot {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.cartGridRoot {
+  margin-top: 10px;
+
+}
+
+.item {
+  overflow: hidden;
+  background-color: #ee6e73;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 25%;
+  border-radius: 5px;
+}
+
+.pay-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.item img {
+  float:left;
+  display: inline-block;
+  height: auto;
+  width: 10%;
+}
+
+.cartContainer {
+  width: 100%
+}
+
+.itemContent {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+
+.title {
+  display: flex;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 3.5%;
+}
+
+.price {
+  display: flex;
+  margin-left: 100px;
+  font-size: 28px;
+  margin-top: 3.5%;
+}
+
+.delete {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.quantity {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
+.text {
+  text-decoration: underline;
+}
+
+.checkoutCard {
+  width: 75%;
+  margin-top: 10px;
+}
+
+.checkoutAction {
+  background-color: #e3e3e3;
+}
+
+.checkoutModal {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  position: relative;
+  width: 8em;
+  height: 8em;
+  background-color: white;
+  box-shadow: 1px 1px 20px 1px red;
+  padding: 5%
+
+}

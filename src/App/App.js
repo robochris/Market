@@ -1,10 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import Router from './Router';
+import React, {Component} from 'react';
+import Router from 'Y:/showcasejob/src/Router/Router';
 import './App.css';
 import Button from '@material-ui/core/Button';
 
-class App extends React.Component {
+class App extends Component {
   render(){
     return(
       <div>
