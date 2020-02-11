@@ -57,7 +57,7 @@ app.post('/register', (req, res) => {
 
 app.post('/products/add', (req,res) => {
   const products = db.collection('products')
-  const product = {name: req.body.name, des: req.body.des, price: req.body.price}
+  const product = {img: req.body.img, name: req.body.name, des: req.body.des, price: req.body.price}
   products.insertOne(product)
     .then((result) => {
       res.send(result.ops[0])

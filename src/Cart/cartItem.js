@@ -81,7 +81,7 @@ render() {
     const remove = "Remove"
     return (
       <div className="item">
-        <img src={hi}/>
+        <img src={require ("../pictures/"+product.img+".jpg")}/>
         <div className="itemContent">
           <div className="title">
             {product.name}

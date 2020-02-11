@@ -55,12 +55,12 @@ class Products extends Component {
         <Card className="productRoot">
         <CardMedia
           className="productImg"
-          image={require ("../hi-ohio-logo.jpg")}
-          title="Hi"
+          image={require ("../pictures/"+product.img+".jpg")}
+          title={product.img}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {product.name}
+            {product.name} - ${product.price}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             {product.des}
